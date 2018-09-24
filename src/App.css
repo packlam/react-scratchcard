@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.motif {
+  margin: 1px;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 48pt;
+}
+
+span {
+  pointer-events: none;
+}
