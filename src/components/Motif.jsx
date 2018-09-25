@@ -7,7 +7,6 @@ const Motif = ({ id, onClick, motif, allMotifs }) => {
     : (clickedMotifs.every(motif => motif.emoji === '😀'))
     ? 'lightgreen'
     : 'lightpink'
-  console.log(backgroundColor);
   return (
     <div className="motif" id={id} onClick={onClick} style={{ backgroundColor: motif.hasBeenClicked ? backgroundColor : 'white' }}>
       <span role="img" aria-label="question mark">{motif.hasBeenClicked ? motif.emoji : '❓'}</span>
